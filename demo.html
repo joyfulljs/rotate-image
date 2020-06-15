@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>image rotate</title>
+</head>
+
+<body style="text-align: center">
+  <div style="border:solid 1px #dcdcdc; padding: 10px;display: inline-block;margin-bottom: 20px;">
+    <img id="img" src="assets/1.jpg" />
+  </div>
+  <div>
+    <button onclick="doRoate()">Rotate</button>
+  </div>
+  <script src="dist/roteteimage.min.js"></script>
+  <script>
+    function doRoate() {
+      var img = document.getElementById('img');
+      var dataUrl = roteteImage(img);
+      img.src = dataUrl;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "@joyfulljs/rotate-image",
+  "version": "1.0.0",
+  "description": "rotate image each time for 90 degree.",
+  "main": "dist/index.c.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyfulljs/rotate-image.git"
+  },
+  "keywords": [
+    "image",
+    "rotate"
+  ],
+  "author": "elvin zhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joyfulljs/rotate-image/issues"
+  },
+  "homepage": "https://github.com/joyfulljs/rotate-image#readme",
+  "devDependencies": {
+    "minimist": ">=0.2.1",
+    "rollup": "^1.31.1",
+    "rollup-plugin-banner": "^0.2.1",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
