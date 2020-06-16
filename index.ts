@@ -11,7 +11,7 @@ export default function roateImage(img: HTMLImageElement, options: IOption): str
   ctx.rotate((90 * Math.PI) / 180);
   ctx.translate(-y, -x);
   ctx.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight);
-  return canvas.toDataURL(mineType, quality);
+  return canvas.toDataURL(mineType || 'image/jpeg', quality || 1);
 }
 
 export interface IOption {

@@ -1,6 +1,6 @@
 {
   "name": "@joyfulljs/rotate-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rotate image each time for 90 degree.",
   "main": "dist/index.c.js",
   "module": "dist/index.js",
