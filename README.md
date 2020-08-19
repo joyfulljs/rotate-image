@@ -17,6 +17,8 @@ import imageRotate from '@joyfulljs/rotate-image';
 
 var dataUrl = roteteImage(imgRef.current);
 imgRef.current.src = dataUrl;
+// or `this.setState({ imgUrl: dataUrl })`
+
 ```
 
 # api
