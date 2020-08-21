@@ -1,6 +1,6 @@
 # rotate-image
 
-rotate image each time by 90 degree.
+truely rotate image itself each time by 90 degree without using `transform: rotate`
 
 # installation
 
